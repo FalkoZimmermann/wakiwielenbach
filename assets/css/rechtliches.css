@@ -1,0 +1,43 @@
+.datenschutz, .impressum {
+    color: white;
+    text-align: center;
+    background-color: rgba(17, 79, 9, 0.8);
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.datenschutz a {
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+}
+
+.index-link:hover {
+    cursor: pointer;
+    background-color: chocolate;
+    color: white;
+}
+
+.index-datenschutz{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.index {
+    width: 400px;
+}
+
+.logo-siu {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.email-siu {
+    color: beige;
+    text-decoration: none;
+}
+
+.footer-impressum {
+    color: beige;
+    text-decoration: none;
+}

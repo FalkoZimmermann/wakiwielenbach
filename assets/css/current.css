@@ -1,0 +1,60 @@
+.current {
+    display: flex;
+    justify-content: center;
+}
+
+.home-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 700px;
+    white-space: inherit;
+    background-color: rgba(17, 79, 9, 0.8);
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.home-secound-title {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.first-text {
+    font-size: 35px;
+    text-align: center;
+    width: 70%;
+}
+
+.open-time {
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.table {
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+td {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.download-konzept {
+    color: rgb(0, 255, 20);
+    font-size: 35px;
+}
+
+.download-konzept:hover {
+    color: blue;
+    cursor: pointer;
+}

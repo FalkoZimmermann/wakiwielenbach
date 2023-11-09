@@ -1,0 +1,61 @@
+.team-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    font-family: 'Geologica';
+    color: white;
+    margin-bottom: 50px;
+}
+
+.team-header{
+    display: flex;
+    justify-content: center;
+}
+
+
+.team-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid black;
+    
+}
+
+.show-members {
+    width: 350px !important;
+    height: 350px !important;
+}
+
+.team-description {
+    width: 1000px;
+    min-height: 350px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    border-radius: 50px;
+}
+
+.team-name {
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.team-description p {
+    margin-left: 20px;
+    white-space: inherit;
+    font-size: 18px;
+}
+
+.team-sub-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 650px;
+    margin-left: 50px;
+}
+
+.description-member {
+    background-color: rgba(17, 79, 9, 0.8);
+}

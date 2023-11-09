@@ -1,0 +1,480 @@
+@media (max-width: 1650px) {
+    .size60 {
+        font-size: 60px !important;
+    }
+}
+
+@media (max-width: 1550px) {
+    .size57 {
+        font-size: 57px !important;
+    }
+}
+
+@media (max-width: 1500px) {
+    .size55 {
+        font-size: 55px !important;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .team-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .location-actuel-news {
+        white-space: inherit;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 800px;
+    }
+
+    .header-site {
+        height: 540px;
+    }
+
+    .size50 {
+        font-size: 50px !important;
+    }
+
+    .size28 {
+        font-size: 28px !important;
+    }
+
+    .menu-header {
+        left: 50px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .maps-card {
+        width: 700px;
+        height: 400px;
+    }
+
+    .header-site {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .size45 {
+        font-size: 45px !important;
+    }
+
+    .size40 {
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .size37 {
+        font-size: 37px !important;
+    }
+
+    .size25 {
+        font-size: 25px !important;
+    }
+
+    .size20 {
+        font-size: 20px !important;
+    }
+
+    .wichtig {
+        width: 500px;
+    }
+
+    .maps-card {
+        width: 700px;
+        height: 400px;
+    }
+
+    .location-actuel-news {
+        width: 700px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .header-site {
+        width: 150px;
+    }
+
+    .team-body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .team-img {
+        margin-top: 20px;
+    }
+
+    .team-description {
+        width: 85%;
+    }
+
+    .team-description p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .size35 {
+        font-size: 35px !important;
+    }
+
+    .size30 {
+        font-size: 30px !important;
+    }
+
+    .team-description {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .team-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team-name {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-siu {
+        width: 200px;
+
+    }
+
+    .atentione {
+        width: 600px;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+
+    .home-text {
+        width: 500px !important;
+    }
+
+    .open-time {
+        width: 400px !important;
+        height: 250px !important;
+    }
+
+    .size27 {
+        font-size: 27px !important;
+    }
+
+    .imgBox {
+        width: 100%;
+    }
+
+    .contact {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .location-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .size31 {
+        font-size: 31px !important;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .header-top {
+        height: 170px;
+        align-items: flex-start;
+    }
+
+    .header-site {
+        position: fixed;
+        top: 190px;
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+
+    .menu-site {
+        width: 100%;
+    }
+
+    .team-body {
+        margin-top: 50px;
+    }
+
+    .menu-site-top {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+    }
+
+    .menu-site-bottom {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+
+    .show-content {
+        margin-top: 150px;
+        transition: all 300ms ease-in-out;
+    }
+
+    .menu-header {
+        left: 45%;
+        top: 80px;
+        font-size: 15px;
+    }
+
+    .menu-logo {
+        width: 50px;
+    }
+
+    .wichtig {
+        width: 400px;
+    }
+
+    .maps-card {
+        width: 500px;
+        height: 250px;
+    }
+
+    .location-actuel-news {
+        width: 700px;
+        font-size: 25px;
+    }
+
+    .location-description {
+        width: 400px;
+    }
+
+    .background-map {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .google-map {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .akitz-logo {
+        width: 70px;
+        height: 70px;
+        top: 10px;
+    }
+
+    .header-site {
+        top: 195px;
+    }
+
+    .size15 {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .header-site {
+        width: 100%;
+        height: 10%;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(41, 54, 71, 0);
+    }
+
+    .menu-site {
+        width: 30%;
+        background-color: rgba(17, 79, 9, 0.8);
+        height: 350px;
+        width: 50%;
+        border-radius: 50px;
+
+    }
+
+    .show-content {
+        margin-top: 430px;
+    }
+
+    .menu-site-top {
+        top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .menu-site-bottom {
+        top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .team-sub-description {
+        margin: 0;
+    }
+
+    .wichtig {
+        width: 300px;
+    }
+
+    .atentione {
+        width: 300px;
+    }
+
+    .maps-card {
+        width: 350px;
+        height: 200px;
+    }
+
+    .location-actuel-news {
+        width: 500px;
+    }
+
+    .location-description {
+        width: 300px;
+    }
+
+    .size22 {
+        font-size: 22px !important;
+    }
+
+    .size17 {
+        font-size: 17px !important;
+    }
+
+    .size15 {
+        font-size: 15px !important;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .close-time {
+        max-width: 70%;
+        max-height: 40%;
+    }
+
+    .close-time-img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .size18 {
+        font-size: 18px !important;
+    }
+
+    .menu-header {
+        left: 45%;
+    }
+
+    .home-text {
+        width: 400px !important;
+    }
+
+    .open-time {
+        max-width: 350px;
+    }
+
+    .table {
+        max-width: 300px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .title {
+        margin-top: 60px;
+    }
+
+    .home-text {
+        background-color: rgb(41, 54, 71, 0.6);
+    }
+
+    .first-text {
+        width: 350px;
+
+    }
+
+    .team-header {
+        padding-left: 30px;
+    }
+
+    .wichtig {
+        width: 300px;
+    }
+
+    .atentione {
+        width: 300px;
+    }
+
+    .maps-card {
+        width: 350px;
+        height: 200px;
+    }
+
+    .location-actuel-news {
+        width: 300px;
+    }
+
+    .location-description {
+        width: 300px;
+    }
+
+    .coordinaten {
+        width: 300px;
+    }
+
+    .contact-title {
+        width: 350px;
+
+    }
+
+    .contact-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-site {
+        height: 14%;
+    }
+
+    .team-description {
+        padding: 0;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .menu-site {
+        width: 70%;
+    }
+}

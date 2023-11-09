@@ -1,0 +1,49 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+    font-family: 'Geologica';
+}
+
+.contact-box {
+    background-color: rgba(17, 79, 9, 0.8);
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 150px;
+    text-align: center;
+    width: 70%;
+}
+
+.contact-title{
+color: white;
+font-size: 40px;
+}
+
+.contact-text {
+color: white;
+font-size: 35px;
+}
+
+.contact-email {
+    text-decoration: none;
+    color: rgb(0, 255, 20);
+    font-size: 35px;
+}
+
+.contact-email:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.contact-tel {
+    text-decoration: none;
+    color: rgb(0, 255, 20);
+    font-size: 35px;
+}
+
+.contact-tel:hover {
+    color: blue;
+}

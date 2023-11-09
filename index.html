@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="assets/img/SIU.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/rechtliches.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/team.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="/assets/css/images.css">
+    <link rel="stylesheet" href="/assets/css/location.css">
+    <link rel="stylesheet" href="/assets/css/new.css">
+    <link rel="stylesheet" href="/assets/css/respons.css">
+    <link rel="stylesheet" href="/assets/css/current.css">
+    <link rel="stylesheet" href="/assets/css/downloads.css">
+    <script src="/script.js"></script>
+    <script src="/assets/js/current.js"></script>
+    <script src="/assets/js/news.js"></script>
+    <script src="/assets/js/legal.js"></script>
+    <script src="/assets/js/location.js"></script>
+    <script src="/assets/js/team.js"></script>
+    <script src="/assets/js/police.js"></script>
+    <script src="/assets/js/images.js"></script>
+    <script src="/assets/js/home.js"></script>
+    <script src="/assets/js/contact.js"></script>
+    <script src="/assets/js/downloads.js"></script>
+    <script src="https://cloud.ccm19.de/app.js?apiKey=110cb762e5ab10af47993b6eccdb5603403997f87f6a85d8&amp;domain=654ca506c19ffff8af0f61e2&amp;lang=de_DE" referrerpolicy="origin"></script>
+    <title>waki-wielenbach</title>
+</head>
+
+<body onload="includeHTML()">
+    <header>
+        <div class="header-top">
+            <div class="menu-header">
+                <div onclick="showMenu()">
+                    <div><img class="menu-logo" src="assets/img/menu-baum.png"> </div>
+                    <div>Menu</div>
+                </div>
+            </div>
+            <div>
+                <p class="title size60 size57 size55 size50 size45 size37 size35 size31 size22 size18">Willkommen im Waldkindergarten Wielenbach
+                </p>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="site-bar">
+        <div class="header-site" id="menu">
+            <div class="menu-site">
+                <div class="menu-site-top">
+                    <div class="menu-btn size28 size20 size13" onclick="openHome()">Startseite</div>
+                    <div class="menu-btn size28 size20 size13" onclick="openNews()">Termine</div>
+                    <div class="menu-btn size28 size20 size13" onclick="openTeam()">Mitarbeitende</div>
+                    <div class="menu-btn size28 size20 size13" onclick="openImages()">Bilder</div>
+                    <div class="menu-btn size28 size20 size13" onclick="openContact()">Kontakt</div>
+                    <div class="menu-btn size28 size20 size13" onclick="openLocation()">Anfahrt</div>
+                    <div translate="no" class="menu-btn size28 size20 size13" onclick="openDownloads()">Downloads</div>
+                </div>
+                <div class="menu-site-bottom">
+                    <div class="menu-btn size20 size13" onclick="openPolice()">Datenschutz</div>
+                    <div class="menu-btn size20 size13" onclick="openLegal()">Impressum</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <main id="content" class="content">
+        <div class="current" w3-include-html="/assets/templates/current.html"></div>
+    </main>
+
+</body>
+
+</html>
